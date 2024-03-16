@@ -1,0 +1,1 @@
+{"ast":null,"code":"module.exports = {\n  title: 'BhimKatta',\n  description: 'Where Developers Learn & Share',\n  author: {\n    email: 'amey.joshi22@spit.ac.in',\n    name: 'Amey Joshi'\n  },\n  lang: 'en'\n};","map":null,"metadata":{},"sourceType":"script"}
