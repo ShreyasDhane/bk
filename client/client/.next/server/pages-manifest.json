@@ -1,1 +1,13 @@
-{"/_app":"static/sR0Hd_5APWNWOgUsEsiWO/pages/_app.js","/_document":"static/sR0Hd_5APWNWOgUsEsiWO/pages/_document.js","/_error":"static/sR0Hd_5APWNWOgUsEsiWO/pages/_error.js","/auth":"static/sR0Hd_5APWNWOgUsEsiWO/pages/auth.html","/index":"static/sR0Hd_5APWNWOgUsEsiWO/pages/index.html","/questions/[slug]":"static/sR0Hd_5APWNWOgUsEsiWO/pages/questions/[slug].js","/questions/ask":"static/sR0Hd_5APWNWOgUsEsiWO/pages/questions/ask.html","/tags":"static/sR0Hd_5APWNWOgUsEsiWO/pages/tags.html","/users":"static/sR0Hd_5APWNWOgUsEsiWO/pages/users.html","/users/[username]":"static/sR0Hd_5APWNWOgUsEsiWO/pages/users/[username].js","/":"static/sR0Hd_5APWNWOgUsEsiWO/pages/index.html","/404":"static/sR0Hd_5APWNWOgUsEsiWO/pages/404.html"}
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/auth": "pages/auth.html",
+  "/": "pages/index.html",
+  "/questions/[slug]": "pages/questions/[slug].js",
+  "/questions/ask": "pages/questions/ask.html",
+  "/tags": "pages/tags.html",
+  "/users/[username]": "pages/users/[username].js",
+  "/users": "pages/users.html",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
+}
