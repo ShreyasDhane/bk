@@ -7,7 +7,7 @@ import SignUpForm from './signup-form'
 
 import styles from './auth-forms.module.css'
 
-const AuthForms = ({ screen = 'signup' }) => {
+const AuthForms = ({ screen = 'https://bk-1-c8hg.onrender.com/signup' }) => {
   const [form, setForm] = useState(screen)
 
   return (
