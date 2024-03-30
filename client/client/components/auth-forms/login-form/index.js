@@ -23,7 +23,7 @@ const LoginForm = () => {
       onSubmit={async (values, { setStatus, resetForm }) => {
         setLoading(true)
         try {
-          const { data } = await publicFetch.post('authenticate', values)
+          const { data } = await publicFetch.post('https://bk-1-c8hg.onrender.com/authenticate', values)
           const { token, expiresAt, userInfo } = data
           setAuthState({ token, expiresAt, userInfo })
           resetForm({})
