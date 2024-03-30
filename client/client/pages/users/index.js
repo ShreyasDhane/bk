@@ -18,7 +18,7 @@ function UsersPage() {
   useEffect(() => {
     if (searchTerm === null) {
       const fetchUser = async () => {
-        const { data } = await publicFetch.get('/users')
+        const { data } = await publicFetch.get('https://bk-n672.onrender.com/users')
         setUsers(data)
       }
 
@@ -27,7 +27,7 @@ function UsersPage() {
       const delayDebounceFn = setTimeout(async () => {
         setLoading(true)
         const { data } = await publicFetch.get(
-          searchTerm ? `/users/${searchTerm}` : `/users`
+          searchTerm ? `/users/${searchTerm}` : `https://bk-n672.onrender.com/users`
         )
         setUsers(data)
         setLoading(false)
