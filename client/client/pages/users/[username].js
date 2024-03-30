@@ -16,7 +16,7 @@ const UserDetail = ({ username }) => {
 
   useEffect(() => {
     const fetchQuestions = async () => {
-      const { data } = await publicFetch.get(`/question/user/${username}`)
+      const { data } = await publicFetch.get(`https://bk-n672.onrender.com/question/user/${username}`)
       setPosts(data)
     }
     fetchQuestions()
