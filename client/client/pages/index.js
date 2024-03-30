@@ -20,12 +20,12 @@ const HomePage = () => {
 
   useEffect(() => {
     const fetchQuestion = async () => {
-      const { data } = await publicFetch.get('/question')
+      const { data } = await publicFetch.get('https://bk-n672.onrender.com/question')
       setQuestions(data)
     }
 
     const fetchQuestionByTag = async () => {
-      const { data } = await publicFetch.get(`/questions/${router.query.tag}`)
+      const { data } = await publicFetch.get(`https://bk-n672.onrender.com/questions/${router.query.tag}`)
       setQuestions(data)
     }
 
